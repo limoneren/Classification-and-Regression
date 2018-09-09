@@ -1,0 +1,39 @@
+--- Classification ---
+
+Selected k for kNN:  5
+kNN cross-validation average error for the selected k: 0.14
+kNN cross-validation standard deviation of the error for the selected k: 0.0374165738677
+
+Selected regularizer (C) for logistic regression:  158.489319246
+Logreg cross-validation average error for the selected C: 0.13
+Logreg cross-validation standard deviation of the error for the selected C: 0.0678232998313
+
+Logreg has a better cross-validation score than kNN with 0.13 vs 0.14
+
+--- Regression ---
+
+Selected parameter for linreg and prostate data: 1
+linreg cross-validation average error for prostate data: 0.17412207541953453
+linreg cross-validation standard deviation of the error for prostate data: 0.023959880399179633
+
+Selected parameter for ridgereg and prostate data: 8.8
+ridgereg cross-validation average error for prostate data: 0.17172437950147262
+ridgereg cross-validation standard deviation of the error for prostate data: 0.031213789847762793
+
+Selected parameter for linreg and airfoil data: 1
+linreg cross-validation average error for airfoil data: 0.2774242256555927
+linreg cross-validation standard deviation of the error for airfoil data: 0.015937288587317477
+
+Selected parameter for ridgereg and airfoil data: 0.0
+ridgereg cross-validation average error for airfoil data: 0.2774242256555929
+ridgereg cross-validation standard deviation of the error for airfoil data: 0.015937288587317903
+
+Selected parameter for linreg and hydrodynamics data: 1
+linreg cross-validation average error for hydrodynamics data: 1.1624146607371113
+linreg cross-validation standard deviation of the error for hydrodynamics data: 0.20025772542170975
+
+Selected parameter for ridgereg and hydrodynamics data: 12.9
+ridgereg cross-validation average error for hydrodynamics data: 1.149749503570313
+ridgereg cross-validation standard deviation of the error for hydrodynamics data: 0.20922170210428004
+
+Selected parameter for Linear regression does not matter. Ridge regression with regularizer 0 is equivalent to linear regression. If a non-zero parameter is selected for ridge regression, than this implies it performed better than linear regression.
